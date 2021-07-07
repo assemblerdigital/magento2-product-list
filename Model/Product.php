@@ -147,7 +147,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
@@ -222,7 +222,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
@@ -271,7 +271,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
@@ -327,7 +327,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
@@ -376,7 +376,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
@@ -432,7 +432,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
@@ -487,7 +487,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
@@ -559,7 +559,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
@@ -605,7 +605,7 @@ class Product extends \Magento\Framework\DataObject
                     $this->_resource->getTableName('catalog_category_product'),
                     'category_id', 
                     'product_id = entity_id',
-                    'category_id in (' . implode($config['categories'], ",") . ')' ,
+                    'category_id in (' . implode(",", $config['categories']) . ')' ,
                     'at_category_id.category_id == NULL',
                     'left'
                 );
